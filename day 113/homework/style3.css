@@ -1,0 +1,332 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+/* .boldonse-regular {
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+   */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2&display=swap');
+
+
+/* .exo-2-<uniquifier> {
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* .poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+} */
+
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    background: rgb(31, 31, 63);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    height:100%;
+    overflow: hidden;
+}
+
+#main-heading{
+    color: rgb(177, 177, 239);
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size:150%;
+    /* min-height: 10vh; */
+    position: relative;
+    top:10px;
+    left:50px;
+    transition: 0.5s;
+}
+
+#main-sign-in{
+    color: rgb(177, 177, 239);
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    letter-spacing: 3px;
+    font-size:150%;
+    align-items:start;
+    position: absolute;
+    top:1.5%;
+    right:5%;
+    transition: 0.5s;
+}
+#main-sign-in:hover{
+    color: rgb(227, 227, 255);
+}
+
+#sign-in-icon{
+    position: absolute;
+    top:1.5%;
+    /* right:140px; */
+    right: 13%;
+    width: 3%;
+}
+
+#main-heading:hover{
+    color: rgb(227, 227, 255);
+}
+
+#side-bar{
+    min-height: 100vh;
+    width:35%;
+    background: rgb(24, 24, 49);
+    position: relative;
+    left:-500px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+
+#side-bar p{
+    display: flex;
+    flex-direction: column;
+    font-size: 140%;
+    font-family: "Exo 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color:rgb(177, 177, 239);
+    letter-spacing: 2px;
+    transition: 0.7s;
+}
+
+#side-bar p:hover{
+    letter-spacing: 3px;
+}
+#main-heading{
+    position: absolute;
+    left:10%;
+    z-index: 12;
+}
+
+#p1{
+    position: absolute;
+    top:30%;
+    left:20%;
+    transition: 0.5s;
+}
+
+#p2{
+    position: absolute;
+    top:40%;
+    left:20%;
+    transition: 0.5s;
+}
+
+#p3{
+    position: absolute;
+    top:50%;
+    left:20%;
+    transition: 0.5s;
+}
+
+#p4{
+    position: absolute;
+    top:60%;
+    left:20%;
+    transition: 0.5s;
+}
+
+#p1:hover, #p2:hover, #p3:hover, #p4:hover{
+    color: rgb(227, 227, 255);
+}
+
+
+#task-box1{
+    position: absolute;
+    top:15%;
+    left:45%;
+    width:30%;
+    min-height: 30vh;
+    background:rgb(117, 129, 139) ;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#task-box2{
+    position: absolute;
+    top:400px;
+    left:45%;
+    width:30%;
+    min-height: 30vh;
+    background:rgb(117, 129, 139) ;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#task-boxes{
+    display: flex;
+}
+
+
+#task-box3{
+    position: absolute;
+    top:20%;
+    left:78%;
+    width:20%;
+    min-height: 60vh;
+    background:rgb(117, 129, 139) ;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+#task-box1 h2, #task-box2 h2, #task-box3 h2{
+    font-size: 130%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: rgb(19, 19, 39);
+    position: relative;
+    left:5%;
+    top:10%;
+}
+
+#checkbox1{
+    position: absolute;
+    left:8%;
+    top:25%;
+}
+
+#checkbox2{
+    position: absolute;
+    left:8%;
+    top:65%;
+}
+
+input[type="checkbox"]{
+    width: 10%;
+    height:10%;
+    color: black;
+}
+
+#web{
+    color: rgb(19, 19, 39);
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top:20px;
+    left:80px;
+}
+
+#workout{
+    color: rgb(19, 19, 39);
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    position: relative;
+    top:65px;
+    left:80px;
+}
+
+#deadline1{
+    color: rgb(75, 19, 11);
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    top:40px;
+    left:50px;
+}
+
+#deadline2{
+    color: rgb(75, 19, 11);
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    top:80px;
+    left:50px;
+}
+
+#deadline4{
+    color: rgb(11, 75, 60);
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    top:80px;
+    left:50px;
+}
+
+#deadline3{
+    color: rgb(11, 75, 60);
+    font-size: 100%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    top:40px;
+    left:50px;
+}
+
+#task-box3 h2{
+    text-align: center;
+    padding-top:5%;
+}
+
+#task-box3 p{
+    color: rgb(44, 44, 71);
+    font-size: 120%;
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    position: relative;
+    top:65px;
+    left:60px;
+}
+
+#task-box3 #add{
+    position: absolute;
+    top:20% ;
+}
+
+#task-box3 #edit{
+    position: absolute;
+    top:40% ;
+}
+
+#task-box3 #remove{
+    position: absolute;
+    top:60% ;
+}
+
+#task-box3{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#add, #edit, #remove{
+    transition: 0.7s ease;
+    text-decoration: none;
+}
+
+
+#add:hover, #edit:hover, #remove:hover{
+    transform: scale(1.1);
+    text-decoration: underline rgb(27, 27, 43);
+}
