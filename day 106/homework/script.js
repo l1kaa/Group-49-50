@@ -1,1 +1,1 @@
-// Homework isn't posted yet.
+// Homework isn't posted.
