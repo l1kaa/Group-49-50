@@ -4,7 +4,7 @@
 // 📌 დავალება:
 // შექმენი ცხოველების Map, სადაც key არის ცხოველის სახელი, და value არის მისი ხმა. დაამატე მინიმუმ 3 ახალი ცხოველი. შემდეგ, for-of ლუპით გამოიტანე ყველა ცხოველის ხმა კონსოლში.
 
-let animals = new Map([["Animal", "Cat"], ["Voice","Meow"]])
+let animals = new Map([["Cat", "Meow"], ["Donkey", "Gwjvbwvb"]]);
 animals.set("Dog", "Woof").set("Cow", "Moo").set("Pig", "Oink");
 
 // console.log(map.get("name"));
@@ -12,7 +12,9 @@ animals.set("Dog", "Woof").set("Cow", "Moo").set("Pig", "Oink");
 
 for (let animal of animals.values()){
     console.log(animal);
-}
+};
+
+console.log(animals);
 
 // 🧠 თემა: Set
 // 📌 დავალება:
@@ -20,7 +22,7 @@ for (let animal of animals.values()){
 
 let names =  ["Davit", "Nino", "Davit", "Saba", "Nino"];
 
-let newNames = new Set(names)
+let newNames = new Set(names);
 console.log(newNames);
 
 // 🧠 თემა: setTimeout
@@ -52,7 +54,6 @@ setTimeout(() => {
 // 📌 დავალება:
 // შექმენი ახალი Map, დაამატე მინიმუმ 2 key-value წყვილი, შემდეგ წაშალე ერთი მათგანი delete მეთოდით, და ბოლოს გამოიყენე .has() რომ შეამოწმო თუ ის წაშლილი key არსებობს თუ არა.
 
-// let user = new Map([["Name", "Surname", "ID"], ["Lika", "Chkhikvadze", "1234"]])
 
 let user = new Map([
     ["Name", "Lika"],
