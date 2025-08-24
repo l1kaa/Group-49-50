@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="weather-container">
+        <header class="header">
+            <div class="search-container">
+                <input type="text" id="location-input" placeholder="Enter city, e.g., Tbilisi">
+                <button id="search-button"><i class="icon-search"></i></button>
+            </div>
+            <div class="location-date">
+                <span class="location"><i class="icon-location"></i> Tbilisi, Georgia</span>
+                <span class="date"><i class="icon-calendar"></i> Thursday, July 24th</span>
+            </div>
+        </header>
+
+        <main class="main-content">
+            <div class="current-weather">
+                <div class="temperature">
+                    <span id="current-temp">16</span><span class="degree-symbol">°C</span>
+                </div>
+                <div class="description" id="weather-description">Storm with Rain</div>
+                <div class="details">
+                    <div class="detail-item">
+                        <i class="icon-wind"></i>
+                        <span>Wind</span>
+                        <span id="wind-speed">2.4km/h</span>
+                    </div>
+                    <div class="detail-item">
+                        <i class="icon-humidity"></i>
+                        <span>Humidity</span>
+                        <span id="humidity">70%</span>
+                    </div>
+                </div>
+            </div>
+            <div class="weather-icon" id="main-weather-icon-container">
+                <i class="icon-cloud initial-icon" id="main-weather-icon"></i>
+            </div>
+        </main>
+
+        <section class="forecast">
+            <div class="daily-forecast">
+                <!-- Daily Js -->
+            </div>
+            <div class="hourly-forecast">
+                <button class="scroll-button left-arrow"><i class="icon-arrow-left"></i></button>
+                <div class="hourly-scroll-wrapper">
+                    <!-- Hourly Js -->
+                </div>
+                <button class="scroll-button right-arrow"><i class="icon-arrow-right"></i></button>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

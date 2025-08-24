@@ -1,0 +1,21 @@
+{
+  "name": "group-49-50",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "type": "commonjs",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/l1kaa/Group-49-50.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/l1kaa/Group-49-50/issues"
+  },
+  "homepage": "https://github.com/l1kaa/Group-49-50#readme",
+  "description": ""
+}

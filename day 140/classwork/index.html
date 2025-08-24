@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script crossorigin src="https://unpkg.com/react@16.0/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16.0/umd/react-dom.development.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+    <style>
+        /* #mainDiv{
+            display: flex;
+        } */
+        #img-1, #img-2{
+            width: 150px;
+        }
+        h1{
+            position: absolute;
+            left: 120px;
+        }
+        #secondDiv{
+            background-color: black;
+            width: 270px;
+            height: 50px;
+            position: absolute;
+            top: 250px;
+            left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div id="app"></div>
+
+    <script>
+
+        const mainDiv = React.createElement('div', {id: 'mainDiv'}, React.createElement('img', {src:'https://img.freepik.com/premium-vector/eye-vector-illustration-cartoon-eye-eye-hand-draw-isolated_648083-316.jpg', id:'img-1'}, null), React.createElement('img', {src:'https://img.freepik.com/premium-vector/eye-vector-illustration-cartoon-eye-eye-hand-draw-isolated_648083-316.jpg', id:'img-2'}, null), React.createElement('h1', null, 'GOA'), React.createElement('div', {id:'secondDiv'}, null))
+        const container = React.createElement;
+        ReactDOM.render(mainDiv, document.getElementById('app'));
+    </script>
+</body>
+</html>
