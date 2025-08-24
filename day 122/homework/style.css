@@ -1,0 +1,58 @@
+        body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+        background: #fffaf0;
+        color: #333;
+        }
+        header {
+        background: #d35400;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+        }
+        nav {
+        background: #e67e22;
+        padding: 0.5rem;
+        text-align: center;
+        }
+        nav a {
+        color: white;
+        margin: 0 15px;
+        text-decoration: none;
+        font-weight: bold;
+        }
+        .hero {
+        text-align: center;
+        padding: 2rem;
+        background: url('https://images.unsplash.com/photo-1600891965050-d0c8e7f8c5b1') center/cover;
+        color: white;
+        }
+        .menu {
+        padding: 2rem;
+        text-align: center;
+        display: none; /* hidden by default */
+        }
+        .menu h2 {
+        color: #d35400;
+        }
+        .menu-item {
+        margin: 1rem 0;
+        }
+        footer {
+        text-align: center;
+        background: #d35400;
+        color: white;
+        padding: 1rem;
+        }
+        button {
+        background: #d35400;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        cursor: pointer;
+        border-radius: 5px;
+        margin-top: 1rem;
+        }
+        button:hover {
+        background: #e67e22;
+        }
